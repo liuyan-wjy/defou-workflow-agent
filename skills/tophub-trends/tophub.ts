@@ -6,8 +6,8 @@ import path from 'path';
 import dotenv from 'dotenv';
 
 // 1. Load Environment Variables
-// Adjusted path to point to defou-workflow-agent from .claude/skills/tophub-trends
-const projectRoot = path.resolve(__dirname, '../../../defou-workflow-agent');
+// Adjusted path to point to defou-workflow-agent root
+const projectRoot = path.resolve(__dirname, '../../');
 const envPath = path.join(projectRoot, '.env');
 
 console.log(`Loading .env from: ${envPath}`);

@@ -10,7 +10,7 @@ import chokidar from 'chokidar';
 import { spawn } from 'child_process';
 
 // 1. Load Environment Variables
-const projectRoot = path.resolve(__dirname, '../../../defou-workflow-agent');
+const projectRoot = path.resolve(__dirname, '../../');
 const envPath = path.join(projectRoot, '.env');
 
 console.log(`Loading .env from: ${envPath}`);

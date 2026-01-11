@@ -7,7 +7,7 @@ import dotenv from 'dotenv';
 import pLimit from 'p-limit';
 
 // 1. Load Environment Variables
-const projectRoot = path.resolve(__dirname, '../../../defou-workflow-agent');
+const projectRoot = path.resolve(__dirname, '../../');
 const envPath = path.join(projectRoot, '.env');
 
 console.log(`Loading .env from: ${envPath}`);
