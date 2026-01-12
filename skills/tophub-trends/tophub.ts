@@ -129,7 +129,7 @@ For the suggestions, use this format:
   }
 
   const msg = await anthropic.messages.create({
-    model: "anthropic/claude-sonnet-4",
+    model: "claude-sonnet-4-20250514",
     max_tokens: 4000,
     temperature: 0.7,
     system: "You are an expert content strategist and trend analyst.",
